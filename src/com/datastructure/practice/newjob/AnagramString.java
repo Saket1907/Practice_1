@@ -6,7 +6,7 @@ public class AnagramString {
 
 	public static void main(String[] args) {
 
-		int AnagramCount = 0;
+		int AnagramCount = 0;     
 
 		Scanner sc = new Scanner(System.in);
 
