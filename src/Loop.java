@@ -1,3 +1,4 @@
+import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
 public class Loop {
@@ -7,8 +8,6 @@ public class Loop {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-
-		
 
 		String result = (a == 0 && b == 0)? "No Value"
 				          :(a == b)? "Match"
