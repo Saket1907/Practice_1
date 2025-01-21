@@ -10,7 +10,10 @@ public class AnagramString {
 
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Enter first string : ");
 		String InputOne = sc.nextLine();
+		
+		System.out.println("Enter second string : ");
 		String InputTwo = sc.nextLine();
 
 		System.out.println("First String : " + InputOne + " Second String : "
